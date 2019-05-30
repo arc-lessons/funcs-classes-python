@@ -5,7 +5,6 @@ python:
 
 install:
   - pip install nbfancy 
-  - pip install -e .
 
 script:
   - nbfancy configure -y jupyter_css 
